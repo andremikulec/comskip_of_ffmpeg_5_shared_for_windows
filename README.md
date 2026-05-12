@@ -52,4 +52,6 @@ msys-2.0.dll
 6. Run  The first 20 seconds ONLY THEN STOP!- I_Love_Lucy_20260511_12301300.ts
 7. Notice the commercial starts at zero(0) seconds and the show starts at eleven(11) seconds. Run again I_Love_Lucy_20260511_12301300.ts
 8. Run  comskip --zpcut --zpchapter --scf --videoredo --videoredo3 --csvout --quality --plist I_Love_Lucy_20260511_12301300.ts
-9. Look at the NEW output file I_Love_Lucy_20260511_12301300.cut  Notice that the first 11 seconds of commercials have been SKIPPED
+9. Look at the NEW output file contents of I_Love_Lucy_20260511_12301300.cut. It reads `JumpSegment("From=0.0000","To=11.0110").`
+    This means that the first 11 seconds are identified as commercials
+   (and 3rd party .cut-file-reading-software can skip this time range.)
