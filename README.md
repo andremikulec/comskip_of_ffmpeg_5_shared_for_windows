@@ -36,7 +36,7 @@ https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-01-31-12-
 
 # Needs the MSYS2 runtime file msys-2.0.dll
 
-The MSYS2 runtime file is needed. A omplaint will occur if the file is missing.
+The MSYS2 runtime file is needed. A complaint will occur if the file is missing.
 ```
 msys-2.0.dll
 ```
