@@ -49,13 +49,14 @@ msys-2.0.dll
 # Instructions
 
 1. Extract https://github.com/GyanD/codexffmpeg/releases/download/5.0.1/ffmpeg-5.0.1-full_build-shared.7z
-2. Put the `\lib` directory and `\bin` directory in the PATH
-3. Put  msys-2.0.dll in the path
-4. Put  comskip.exe in the PATH
-5. Run  comskip  --help
-6. Run  The first 20 seconds ONLY THEN STOP!- I_Love_Lucy_20260511_12301300.ts
-7. Notice the commercial starts at zero(0) seconds and the show starts at eleven(11) seconds. Run again I_Love_Lucy_20260511_12301300.ts
-8. Run  comskip --zpcut --zpchapter --scf --videoredo --videoredo3 --csvout --quality --plist I_Love_Lucy_20260511_12301300.ts
-9. Look at the NEW output file contents of I_Love_Lucy_20260511_12301300.cut. It reads `JumpSegment("From=0.0000","To=11.0110").`
+2. Download msys-2.0.dll,  comskip.exe, and I_Love_Lucy_20260511_12301300.ts, from the https://github.com/AndreMikulec/Comskip_of_ffmpeg_5_shared_for_Windows/releases
+3. Put the `\lib` directory and `\bin` directory in the PATH
+4. Put  msys-2.0.dll in the path
+5. Put  comskip.exe in the PATH
+6. Run  comskip  --help
+7. Run  The first 20 seconds ONLY THEN STOP!- I_Love_Lucy_20260511_12301300.ts
+8. Notice the commercial starts at zero(0) seconds and the show starts at eleven(11) seconds. Run again I_Love_Lucy_20260511_12301300.ts
+9. Run  comskip --zpcut --zpchapter --scf --videoredo --videoredo3 --csvout --quality --plist I_Love_Lucy_20260511_12301300.ts
+10. Look at the NEW output file contents of I_Love_Lucy_20260511_12301300.cut. It reads `JumpSegment("From=0.0000","To=11.0110").`
     This means that the first 11 seconds are identified as commercials
    (and 3rd party .cut-file-reading-software can skip this time range.)
