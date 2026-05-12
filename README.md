@@ -9,8 +9,9 @@ because the ffmpeg 7 and later code has changed and corresponding reactionary ch
 to be made to the comskip code (https://github.com/erikkaashoek/Comskip ).  
 These code changes have not been done yet. We are waiting patiently.
 
-The current version of ffmpeg in MSYS2 is ffmpeg 8 in May 2026
-No easy way exists to go back and get an earlier compiled binaries (means versions5 and 6 ) of ffmpeg
+The current version of ffmpeg in MSYS2 is ffmpeg 8 in May 2026.
+No easy way exists to go back and get an earlier compiled binaries ( means versions5 and 6 ) of ffmpeg.
+No easy way exists to compile comskip.exe without "ffmpeg version 5 in MSYS2."
 
 # Commit 2ef8684 of https://github.com/erikkaashoek/Comskip
 
