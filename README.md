@@ -26,13 +26,17 @@ Verified
 ```
 https://github.com/erikkaashoek/Comskip/commit/2ef86841cd84df66fe0e674f300ee49cef6e097a
 
+
 # Need an ffmpeg shared version 5
 
-Needs ffmpeg shared version 5 (Must be "SHARED VERSION" not static)
+## Original ffmpeg shared version 5
+
+Needs ffmpeg shared version 5 (Must be "SHARED VERSION" not static). Get it here.
 https://github.com/GyanD/codexffmpeg/releases/download/5.0.1/ffmpeg-5.0.1-full_build-shared.7z
 ( See https://ci.appveyor.com/project/erikkaashoek/comskip/builds/51910208 )
 
-Alternate ffmpeg shared version 5 
+## Alternate ffmpeg shared version 5 
+Optionally, get it here.
 https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-01-31-12-58/ffmpeg-n5.1.6-16-g6e63e49496-win64-gpl-shared-5.1.zip
 
 # Needs the MSYS2 runtime file msys-2.0.dll
