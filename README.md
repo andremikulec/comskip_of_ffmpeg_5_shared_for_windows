@@ -1,3 +1,32 @@
+# THIS REPOSITORY IS OBSOLETE.
+## SEE THE SOLUTION OF COMSKIP ON "FFMPEG 8" HERE ...
+
+### Get Comskip on ffmpeg 8 Here
+https://github.com/AndreMikulec/Comskip/releases
+
+### Build Documentation and Links
+docs: mpeg2dec.c macros, appveyor.yml clean builds, build.yaml builds Pull #191 #192 #3
+https://github.com/AndreMikulec/Comskip/issues/3
+
+### Build Discussion (if any) and Links
+mpeg2dec.c macros, appveyor.yml clean builds, build.yaml builds Pull #191 #192
+https://github.com/erikkaashoek/Comskip/issues/192
+
+### Original Commit
+mpeg2dec.c macros, appveyor.yml clean builds, build.yaml builds
+https://github.com/AndreMikulec/Comskip/commit/0232eb62be2b49a6ff4cd66f4b4c539dff0fe365
+```
+1. commit (+ artifacts),
+2. SKIP tag tests FFmpeg master-latest
+3. no-SKIP tag Releases\Deploys to Github
+```
+
+### Pull Request
+mpeg2dec.c macros, appveyor.yml clean builds, build.yaml builds #191
+https://github.com/erikkaashoek/Comskip/pull/191
+
+--------
+
 # Comskip of ffmpeg 5 shared for Windows
 comskip.exe of "ffmpeg version 5 shared" for windows
 
